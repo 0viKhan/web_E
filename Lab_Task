@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sunrise Cafe Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffdf7;
+      color: #333;
+    }
+    table, th, td {
+      border: 1px solid #444;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px 12px;
+    }
+    .menu-section {
+      width: 70%;
+      margin: 40px auto;
+    }
+    .menu-header th {
+      text-align: center;
+      font-size: 24px;
+      background-color: #f4e2d8;
+    }
+    .section-title {
+      background-color: #f9e7d5;
+      font-weight: bold;
+    }
+    .emoji-cell {
+      width: 5%;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<table class="menu-section">
+  <tr>
+    <th rowspan="2"><h1>🌞 SUNRISE CAFE</h1></th>
+    <th>Today's Special Menu</th>
+  </tr>
+  <tr>
+    <th>Opening Hours: 7:30am - 8:30pm</th>
+  </tr>
+</table>
+
+<!-- Coffee -->
+<table class="menu-section">
+  <tr class="section-title">
+    <th class="emoji-cell">☕</th>
+    <td><b>HOT COFFEE</b></td>
+    <td><b>Price</b></td>
+  </tr>
+  <tr><td></td><td>Espresso Single Shot</td><td>$4.00</td></tr>
+  <tr><td></td><td>Latte</td><td>$5.50</td></tr>
+  <tr><td></td><td>Caramel Macchiato</td><td>$6.00</td></tr>
+  <tr><td></td><td>Cafe Mocha</td><td>$5.75</td></tr>
+  <tr><td></td><td>Americano</td><td>$4.50</td></tr>
+</table>
+
+<!-- Cold Beverages -->
+<table class="menu-section">
+  <tr class="section-title">
+    <th class="emoji-cell">🥤</th>
+    <td><b>CHILLED BEVERAGES</b></td>
+    <td><b>Price</b></td>
+  </tr>
+  <tr><td></td><td>Iced Coffee</td><td>$4.75</td></tr>
+  <tr><td></td><td>Chocolate Frappe</td><td>$5.00</td></tr>
+  <tr><td></td><td>Strawberry Milkshake</td><td>$5.50</td></tr>
+  <tr><td></td><td>Vanilla Smoothie</td><td>$5.00</td></tr>
+</table>
+
+<!-- Tea -->
+<table class="menu-section">
+  <tr class="section-title">
+    <th class="emoji-cell">🍵</th>
+    <td><b>TEA SELECTION</b></td>
+    <td><b>Price</b></td>
+  </tr>
+  <tr><td></td><td>English Breakfast</td><td>$3.00</td></tr>
+  <tr><td></td><td>Green Tea</td><td>$3.50</td></tr>
+  <tr><td></td><td>Mint Herbal Tea</td><td>$4.00</td></tr>
+  <tr><td></td><td>Lemon Honey Tea</td><td>$4.50</td></tr>
+</table>
+
+<!-- Desserts -->
+<table class="menu-section">
+  <tr class="section-title">
+    <th class="emoji-cell">🍰</th>
+    <td><b>DESSERTS</b></td>
+    <td><b>Price</b></td>
+  </tr>
+  <tr><td></td><td>Chocolate Muffin</td><td>$3.00</td></tr>
+  <tr><td></td><td>Cheesecake Slice</td><td>$4.50</td></tr>
+  <tr><td></td><td>Cinnamon Roll</td><td>$3.50</td></tr>
+  <tr><td></td><td>Fruit Tart</td><td>$4.00</td></tr>
+</table>
+
+</body>
+</html>
